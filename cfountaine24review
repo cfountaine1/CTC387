@@ -1,0 +1,12 @@
+#cfountaine24review.py
+#Create program
+# user input and display output
+
+answer = input("Do you want to go for a pint?    ")
+
+if  answer == "yes":
+    print ("Excellent lad, let's meet at the pub!")
+elif answer == "no":
+    print ("But it's St. Paddy's Day, me lad.")
+else:
+    print ("Cmon, yes or no?   ")
