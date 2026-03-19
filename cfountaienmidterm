@@ -1,0 +1,8 @@
+#cfountainemidterm
+#run program, using the class server, that asks a user to enter a number between 1 and 10. If the user guesses a number you choose, display that result to the user. If the user does not guess your number, display that result. Submit your python source file and a screenshot that shows the program running on the server.
+
+answer = input("Guess a number between 1 and 10    ")
+if answer == "4":
+    print ("Winner, winner, Chicken dinner!")
+elif answer != "4":
+    print ("Sorry, you've just lost a chicken dinner, it was 4.")
